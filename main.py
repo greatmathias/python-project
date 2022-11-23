@@ -13,7 +13,7 @@ class GymApp(tk.Tk):
         self.title('Gym Management Software')
         self.configure(bg='#4834DF')
         self.geometry('850x625')
-        l1 = tk.Label(self, text = 'Welcome to Gym Management Software', font=("Courier", 28, "bold"), bg='#4834DF').pack()
+        l1 = tk.Label(self, text = 'Welcome to Gym Management Software', font=("Courier", 25, "bold"), bg='#4834DF').pack()
         container = tk.Frame(self, bg='#EAF0F1')
         container.pack(side="top", fill="both", expand = True, pady=10)
 
@@ -121,8 +121,8 @@ class Menu(tk.Frame):
         b3 = tk.Button(self, text = 'Show All Customers', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(ShowCustomers)).pack(pady=4)
         b4 = tk.Button(self, text = 'Show All Packages', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(ShowPackages)).pack(pady=4)
         b5 = tk.Button(self, text = 'Search Customer', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(SearchCustomer)).pack(pady=4)
-        b6 = tk.Button(self, text = 'Add Subscription', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(AddSubscription)).pack(pady=4)
-        b7 = tk.Button(self, text = 'Add Payment', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(AddPayment)).pack(pady=4)
+        b6 = tk.Button(self, text = 'Add Customer Subscription', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(AddSubscription)).pack(pady=4)
+        b7 = tk.Button(self, text = 'Add Subscription Payment', relief='raised', font=("Times", 18), width=20, command=lambda: controller.show_frame(AddPayment)).pack(pady=4)
 
 
 class AddCustomer(tk.Frame):
