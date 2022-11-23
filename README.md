@@ -4,7 +4,7 @@ A new gym requires software to record certain processes. Participants wishing to
 and are limited to a maximum number of members.A member will contact the gym to enroll on
 a specific set of classes. Classes have to be paid via credit or debit card or cash before the
 sessions. The price varies according to the type of class. Once payment has been received the
-member will be enrolled for the appropriate six sessions.
+member will be enrolled for the appropriate six sessions. This management system is implemented to automate the above process.
 
 # Installation Steps?
 
