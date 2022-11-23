@@ -13,7 +13,7 @@ class GymApp(tk.Tk):
         self.title('Gym Management Software')
         self.configure(bg='#4834DF')
         self.geometry('850x625')
-        l1 = tk.Label(self, text = 'Welcome to Gym Management Software', font=("Courier", 28, "bold"), bg='#4834DF').pack()
+        l1 = tk.Label(self, text = 'Welcome to Gym Management Software', font=("Courier", 25, "bold"), bg='#4834DF').pack()
         container = tk.Frame(self, bg='#EAF0F1')
         container.pack(side="top", fill="both", expand = True, pady=10)
 
